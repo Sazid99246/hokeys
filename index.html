@@ -13,16 +13,53 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/12f5e20f67.js" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: "Manrope", sans-serif;
+            color: #131318;
         }
     </style>
 </head>
 
 <body class="container mx-auto">
     <header>
-
+        <nav class="navbar">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a class="font-bold text-[#FF4240]">Home</a></li>
+                        <li><a class="font-bold text-[#424247]">About</a></li>
+                        <li><a class="font-bold text-[#424247]">Pages</a></li>
+                        <li><a class="font-bold text-[#424247]">Blog</a></li>
+                        <li><a class="font-bold text-[#424247]">Contact</a></li>
+                    </ul>
+                </div>
+                <a class="text-2xl lg:text-4xl font-extrabold">Hokey<span class="text-[#FF4240]">'</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a class="font-bold text-[#FF4240]">Home</a></li>
+                    <li><a class="font-bold text-[#424247]">About</a></li>
+                    <li><a class="font-bold text-[#424247]">Pages</a></li>
+                    <li><a class="font-bold text-[#424247]">Blog</a></li>
+                    <li><a class="font-bold text-[#424247]">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end justify gap-6">
+                <a href=""><i class="fa-solid fa-magnifying-glass text-[#89898B]"></i></a>
+                <a class="rounded-lg text-center font-bold text-[18px] lg:text-2xl text-white px-4 py-2 lg:px-6 lg:py-4 bg-[#FF4240]">Get Ticket</a>
+            </div>
+        </nav>
     </header>
     <main>
 
