@@ -23,9 +23,10 @@
     </style>
 </head>
 
-<body class="container mx-auto">
-    <header>
-        <nav class="navbar">
+<body>
+    <header class="container mx-auto">
+        <!-- navbar -->
+        <nav class="navbar my-2 lg:my-12">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -57,11 +58,53 @@
             </div>
             <div class="navbar-end justify gap-6">
                 <a href=""><i class="fa-solid fa-magnifying-glass text-[#89898B]"></i></a>
-                <a class="rounded-lg text-center font-bold text-[18px] lg:text-2xl text-white px-4 py-2 lg:px-6 lg:py-4 bg-[#FF4240]">Get Ticket</a>
+                <a
+                    class="rounded-lg text-center font-bold text-[18px] lg:text-2xl text-white px-4 py-2 lg:px-6 lg:py-4 bg-[#FF4240]">Get
+                    Ticket</a>
             </div>
         </nav>
+        <!-- banner -->
+        <div class="mb-10 lg:mb-[100px]">
+            <div class="carousel w-full h-full lg:h-[500px]">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/10.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="Images/10.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-2xl bg-[#131318] mt-4 lg:absolute lg:right-32 lg:bottom-10 max-w-lg">
+                <div class="card-body">
+                    <h2 class="card-title text-white">Meet all the heroes from the field</h2>
+                    <p class="text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                        placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+            </div>
+        </div>
     </header>
-    <main>
+    <main class="container mx-auto">
 
     </main>
     <footer>
